@@ -16,8 +16,9 @@ import { send } from "emailjs-com";
 const Contact = () => {
   const theme = useSelector((state) => state.portfolio.theme);
   const [toSend, setToSend] = useState({
-    name: "",
-    email: "",
+    from_name: "",
+    reply_to: "",
+    to_name: "Ion Para",
     message: "",
   });
 
@@ -25,7 +26,7 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send("service_ymbbgkm", "contact_form", send, "WkZreCmCmN4lp-y7L")
+    send("service_ymbbgkm", "template_iajfgo8", toSend, "WkZreCmCmN4lp-y7L")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         setFormResponse("Message successfully sent!");
@@ -35,8 +36,9 @@ const Contact = () => {
         setFormResponse("Failed to send the message!");
       });
     setToSend({
-      name: "",
-      email: "",
+      from_name: "",
+      reply_to: "",
+      to_name: "Ion Para",
       message: "",
     });
   };
@@ -117,16 +119,20 @@ const Contact = () => {
               type={"text"}
               placeholder="Name"
               required
-              value={toSend.email}
-              onChange={(e) => setToSend({ ...toSend, email: e.target.value })}
+              value={toSend.from_name}
+              onChange={(e) =>
+                setToSend({ ...toSend, from_name: e.target.value })
+              }
             />
             <input
               className="input"
               type={"email"}
               placeholder="Email"
               required
-              value={toSend.name}
-              onChange={(e) => setToSend({ ...toSend, name: e.target.value })}
+              value={toSend.reply_to}
+              onChange={(e) =>
+                setToSend({ ...toSend, reply_to: e.target.value })
+              }
             />
           </div>
           <textarea
