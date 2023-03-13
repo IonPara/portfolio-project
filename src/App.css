@@ -108,23 +108,23 @@ video {
   padding-top: 20px;
 }
 
-.theme-container h4:hover {
+.theme-container h4:hover, .theme {
   cursor: pointer;
+}
+
+.themes {
+  height: 120px;
 }
 
 .theme {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: red;
 }
 
-.theme {
-  cursor: pointer;
-}
 
 .close-theme {
-  right: -6%;
+  right: calc(2% - 120px);
 }
 
 .hover-primary:hover, .active-primary  {
@@ -149,37 +149,9 @@ video {
 
 }
 
-
-
-@media  screen and (max-width: 1300px) {
+@media screen and (max-width: 650px) {
   .close-theme {
-    right: -8%;
+    right: calc(4% - 120px);
   }
 }
-
-@media  screen and (max-width: 1000px) {
-  .close-theme {
-    right: -10%;
-  }
-}
-
-@media  screen and (max-width: 850px) {
-  .close-theme {
-    right: -12%;
-  }
-}
-
-
-@media  screen and (max-width: 660px) {
-  .close-theme {
-    right: -16%;
-  }
-}
-
-@media  screen and (max-width: 500px) {
-  .close-theme {
-    right: -22%;
-  }
-}
-
 
