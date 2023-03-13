@@ -67,6 +67,11 @@
     width: 0 !important;
   }
 
+  .personal-info {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
   .list-element a:hover,.list-element a:visited, .list-element a:link {
     text-decoration: none;
   }
@@ -91,6 +96,7 @@
     min-width: 40%;
     border-right: 1px dashed grey;
     padding-right: 2rem;
+    margin-right: 30px;
   }
   
   .list-element {
@@ -339,6 +345,7 @@
 
       .contact-details {
         border-right: none;
+        margin-right: none;
       }
 
       .about {

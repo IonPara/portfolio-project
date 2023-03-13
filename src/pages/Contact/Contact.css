@@ -102,6 +102,11 @@
       width: 0;
     }
 
+    .contact-details-container {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+
     .list-item, .input, .send-message-btn,  .textarea {
       margin-top: 12px;
     }

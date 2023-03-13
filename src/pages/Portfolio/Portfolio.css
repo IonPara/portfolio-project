@@ -34,6 +34,11 @@
   .projects-container::-webkit-scrollbar, .project-details::-webkit-scrollbar  {
     width: 0 !important;
   }
+  .projects-container, .project-details {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 
   .project-container {
     padding-left: 8px;

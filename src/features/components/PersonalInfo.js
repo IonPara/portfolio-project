@@ -38,7 +38,7 @@ const PersonalInfo = ({ showInfo, setShowInfo, hide, setHide }) => {
           className="close-icon"
           icon={faClose}
         />
-        <section className="contact-details  mr-10">
+        <section className="contact-details  ">
           <div className="prof-pic-container">
             <img src={profilePic} alt="" />
           </div>
