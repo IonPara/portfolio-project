@@ -9,7 +9,6 @@ import {
   faAddressBook,
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
-import hyperion from "../../assets/images/hyperion.png";
 import cv from "../../assets/CV/Ion_Para_CV.pdf";
 import { useSelector } from "react-redux";
 
