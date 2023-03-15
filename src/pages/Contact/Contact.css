@@ -78,6 +78,11 @@
     .contact-details-container {
       width: 80%;
     }
+
+    .contact-heading-container {
+      min-width: 70%
+    }
+
     
   }
   
@@ -85,6 +90,10 @@
     .contact-details-container {
       width: 100%;
     }   
+
+    .contact-heading-container {
+      width: 95%
+    }
   }
 
   @media screen and (max-width: 650px) {

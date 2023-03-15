@@ -6,6 +6,8 @@
 .pnp.js
 .history
 .env
+.env.production
+.env.development
 
 # testing
 /coverage

@@ -114,7 +114,7 @@
 
 
   @media screen and (max-width: 1200px) {
-    .tech-news-table {
+    .tech-news-table, .news-heading-container {
       width: 70%;
     }
 
@@ -124,7 +124,7 @@
   }
 
   @media screen and (max-width: 950px) {
-    .tech-news-table {
+    .tech-news-table, .news-heading-container {
       width: 85%;
     }
 
@@ -145,6 +145,11 @@
         .tech-news-table {
           width: 95%;
           font-size: .9rem;
+        }
+
+        .news-heading-container {
+          width: 92%;
+
         }
     
         .article-close-icon {

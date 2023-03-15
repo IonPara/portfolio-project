@@ -35,12 +35,12 @@ video {
   position: fixed;
   height: 70px;
   width: 100%;
-  z-index: 4;
+  z-index: 10;
 }
 
 .nav-container {
-  width: 25rem;
-  max-width: 25rem;
+  width: 30rem;
+  max-width: 30rem;
   display: flex;
   justify-content: space-around;
   align-items:center;
@@ -57,6 +57,37 @@ video {
 .nav-element:hover {
   transform: scale(1.03);
 }
+
+.nav-collapse-container {
+  position: absolute;
+  background-color: rgba(9, 9, 9, .9);
+  width: 50%;
+  right: 0;
+  padding: 20px;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  z-index: 20 !important;
+  font-family: 'Tilt Neon', cursive;
+  display: none;
+
+}
+
+.nav-collapse {
+  width: 100%;
+  min-height: 240px;
+  margin-left: auto;
+}
+
+
+.nav-collapse .nav-element {
+  font-size: 1.7rem;
+}
+
+.menu-btn {
+  display: none;
+}
+
 
 .home-container{
   margin-top: 70px;
@@ -93,21 +124,28 @@ video {
   --animate-duration: 1.5s;
 }
 
+.animate__animated.animate__fadeInRight {
+  --animate-duration: .8s;
+}
+
 .theme-container {
   position: fixed;
   z-index: 6;
-  right: 1%;
-  top: 40%;
+  right: 16px;
+  top: 10%;
   transform: rotate(90deg);
-  background-color:rgba(0, 0, 0);
+  background-color:rgba(0, 0, 0, .6);
   width: 100px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
+
 
 .theme-container h4 {
   background: -webkit-linear-gradient(#d9534f, #5cb85c, #f0ad4e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .theme-container h4:hover, .theme {
@@ -115,7 +153,7 @@ video {
 }
 
 .themes {
-  height: 120px;
+  height: 80%;
 }
 
 .theme {
@@ -124,30 +162,29 @@ video {
   border-radius: 50%;
 }
 
-
 .close-theme {
-  right: calc(2% - 120px);
+  right: -90px;
 }
 
 .hover-primary:hover, .active-primary  {
   color: #0275d8;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .hover-success:hover,.active-success  {
   color: #5cb85c;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 
 }
 
 .hover-warning:hover, .active-warning  {
   color: #f0ad4e;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .hover-danger:hover, .active-danger  {
   color: #d9534f;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 
 }
 
@@ -159,5 +196,21 @@ video {
   .home-header {
     font-size: 3.3rem !important;
   }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-container {
+    display: none;
+  } 
+
+  .nav-collapse-container, .menu-btn {
+    display: block;
+  }
+
 }
 
