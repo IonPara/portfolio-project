@@ -2,12 +2,12 @@
 
 📃 **Content:**
 - [General Information ](#General-Information)
-- [Language used](#languages)
+- [Technologies used](#languages)
 - [Setup](#setup)
 - [Contact](#contact)
 
  ## 📑 General Information:
-This project contains some information about me and my most recent projects. The goal of this project is to showcase my skills and to allow recruiters get in touch with me. <br>
+This project contains some information about me and my most recent projects. The goal of this project is to showcase my skills and to allow recruiters get in touch with me. In this project, I've used flexbox to design and build the layout and media queries to make it responsive. The app is interactive and it allows the user to changes themes by selecting one of the 4 colors.<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/).
 
 The news data is pulled from [Newsdata.io](https://newsdata.io/search-news).
@@ -47,7 +47,7 @@ Runs the app in the development mode.
 
 Open http://localhost:3000 to view it in your browser.
 
-![portfolio](https://user-images.githubusercontent.com/84988051/225346936-dd87b202-d95c-4247-bbf7-c674a8b9e59c.png)
+![portfolio](https://user-images.githubusercontent.com/84988051/225348586-2bb54f67-658c-4321-8074-3733d50ac30b.png)
 
 
 ## ✉️ <a id="contact">Contact</a>:
