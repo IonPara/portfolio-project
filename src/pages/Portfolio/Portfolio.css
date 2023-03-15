@@ -122,15 +122,15 @@
     top: -70px;
     left: 0;
     background-color:rgba(0, 0, 0, .4);
-    z-index: 2;
+    z-index: 7;
   }
 
   .project-details {
     position: absolute;
-    top: 3%;
+    top: 8%;
     left:25%;
     width: 50%;
-    height: 90%;
+    height: 85%;
     background-color:rgb(12, 11, 11);
     border-radius: 20px;
     padding-inline: 2%;
@@ -140,7 +140,7 @@
     align-items:center;
     border-top: 40px solid rgb(12, 11, 11);
     border-bottom: 40px solid rgb(12, 11, 11);
-
+    z-index: 7;
   }
   
   .link {
@@ -235,6 +235,7 @@
 
     .proj-close-icon {
       right: 5%;
+      top: 8%;
     }
   }
 

@@ -86,6 +86,7 @@ video {
 
 .menu-btn {
   display: none;
+  z-index: 5;
 }
 
 
