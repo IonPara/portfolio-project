@@ -1,46 +1,57 @@
-# Getting Started with Create React App and Redux
+# Porfolio-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+📃 **Content:**
+- [General Information ](#General-Information)
+- [Technologies used](#languages)
+- [Setup](#setup)
+- [Contact](#contact)
 
-## Available Scripts
+ ## 📑 General Information:
+This project contains some information about me and my most recent projects. The goal of this project is to showcase my skills and to allow recruiters get in touch with me. In this project, I've used flexbox to design and build the layout and media queries to make it responsive. The app is interactive and it allows the user to changes themes by selecting one of the 4 colors.<br>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/).
 
-In the project directory, you can run:
+The news data is pulled from [Newsdata.io](https://newsdata.io/search-news).
 
-### `npm start`
+<b>Here are some of the measures taken to ensure the security of this app:</b> <br>
+● The API keys are saved as environment variables.</pre> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:floppy_disk: The app was deployed on [Netlify.com](https://www.netlify.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### 🔣 <a id="languages">Technoloogies used </a>:
+<p align="left">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/>
+    <img src="https://skillicons.dev/icons?i=nodejs&theme=light"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/>
+    <img src="https://skillicons.dev/icons?i=redux&theme=light"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="50" height="50"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/>
+    <img src="https://skillicons.dev/icons?i=tailwind&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=vscode&theme=light"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📘 <a id="setup">Setup</a>:
 
-### `npm run build`
+### Or you can visualise it by clicking on the link [here](https://ion-para.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Or by following these steps :point_down:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. [Download Zip file](https://github.com/IonPara/project-portfolio/archive/refs/heads/main.zip)
+2. [Download **Node.js**](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
+3. Navigate to project directory
+4. Run: **npm start**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Runs the app in the development mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open http://localhost:3000 to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![portfolio](https://user-images.githubusercontent.com/84988051/225348586-2bb54f67-658c-4321-8074-3733d50ac30b.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✉️ <a id="contact">Contact</a>:
 
-## Learn More
+Created by [IonPara](https://github.com/IonPara).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to leave your feedback.
