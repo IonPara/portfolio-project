@@ -9,13 +9,9 @@ const Theme = () => {
 
   return (
     <div
-      className={
-        state
-          ? "theme-container animate__fadeInRight"
-          : " theme-container close-theme"
-      }
+      className={state ? "theme-container " : " theme-container close-theme"}
     >
-      <div className="themes d-flex justify-evenly">
+      <div className="themes d-flex justify-evenly ">
         <div className="">
           <div
             onClick={() => {
