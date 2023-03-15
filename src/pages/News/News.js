@@ -14,7 +14,7 @@ const News = ({ news }) => {
 
   return (
     <div className="contact-container animate__animated animate__fadeInUp">
-      <h1 className="contact-heading-container">
+      <h1 className="contact-heading-container news-heading-container">
         Tech <span className={`text-${theme}`}>News</span>
       </h1>
       <FontAwesomeIcon
