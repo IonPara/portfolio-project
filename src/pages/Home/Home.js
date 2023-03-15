@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="home-container d-flex justify-center items-center animate__animated animate__fadeInUp">
       <div className="home ">
-        <h1>
+        <h1 className="home-header">
           ION <span className={`text-${theme}`}>PARA</span>
         </h1>
         <h2 className="text-3xl">

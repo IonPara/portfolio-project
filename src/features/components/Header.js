@@ -43,6 +43,17 @@ const Header = () => {
           Portfolio
         </NavLink>
         <NavLink
+          onClick={() => setActive("news")}
+          className={
+            active === "news"
+              ? `nav-element active-${theme} hover-${theme}`
+              : `nav-element hover-${theme}`
+          }
+          to={"/news"}
+        >
+          News
+        </NavLink>
+        <NavLink
           onClick={() => setActive("contact")}
           className={
             active === "contact"

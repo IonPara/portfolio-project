@@ -33,7 +33,7 @@ const Project = ({ project, showInfo, setShowInfo, hide, setHide }) => {
           <button
             className={`go-button button text-2xl download-btn bg-${theme}`}
           >
-            Go
+            Live
           </button>
         </Link>
         <Link

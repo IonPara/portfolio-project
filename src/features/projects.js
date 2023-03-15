@@ -31,33 +31,6 @@ class Project {
 
 const projects = [];
 
-const justFight = new Project(
-  "Just Fight",
-  "https://ionpara.github.io/Just-Fight/",
-  "https://github.com/IonPara/Just-Fight",
-  "The project contains a website built to showcase a hobby and has a goal to provide information about the experience working on the frontend side using object-oriented design. In this project, I've used flexbox to design and build the layout and media queries to make it responsive. The project is updated regularly .",
-  [
-    <p className="d-flex justify-evenly mt-4" key={101}>
-      <img
-        src="https://skillicons.dev/icons?i=javascript&theme=light"
-        alt="javascript"
-      />
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-        alt="bootstrap"
-        width="50"
-        height="50"
-      />
-      <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
-      <img src="https://skillicons.dev/icons?i=html&theme=light" alt="html" />
-    </p>,
-  ],
-  justFightImg,
-  justFightBig,
-  "just-fight"
-);
-projects.push(justFight);
-
 const hangman = new Project(
   "Hangman",
   "https://hangman-game-101.netlify.app/",
@@ -164,6 +137,33 @@ const justRead = new Project(
   "just-read"
 );
 projects.push(justRead);
+
+const justFight = new Project(
+  "Just Fight",
+  "https://ionpara.github.io/Just-Fight/",
+  "https://github.com/IonPara/Just-Fight",
+  "The project contains a website built to showcase a hobby and has a goal to provide information about the experience working on the frontend side using object-oriented design. In this project, I've used flexbox to design and build the layout and media queries to make it responsive. The project is updated regularly .",
+  [
+    <p className="d-flex justify-evenly mt-4" key={101}>
+      <img
+        src="https://skillicons.dev/icons?i=javascript&theme=light"
+        alt="javascript"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+        alt="bootstrap"
+        width="50"
+        height="50"
+      />
+      <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
+      <img src="https://skillicons.dev/icons?i=html&theme=light" alt="html" />
+    </p>,
+  ],
+  justFightImg,
+  justFightBig,
+  "just-fight"
+);
+projects.push(justFight);
 
 const todo = new Project(
   "To Do",

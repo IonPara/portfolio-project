@@ -39,11 +39,13 @@ video {
 }
 
 .nav-container {
-  width: 20rem;
+  width: 25rem;
+  max-width: 25rem;
   display: flex;
   justify-content: space-around;
   align-items:center;
   font-family: 'Tilt Neon', cursive;
+  padding-inline: 10px;
 }
 
 .nav-element {
@@ -152,6 +154,10 @@ video {
 @media screen and (max-width: 650px) {
   .close-theme {
     right: calc(4% - 120px);
+  }
+
+  .home-header {
+    font-size: 3.3rem !important;
   }
 }
 
