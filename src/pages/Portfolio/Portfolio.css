@@ -127,10 +127,10 @@
 
   .project-details {
     position: absolute;
-    top: 8%;
+    top: 9%;
     left:25%;
     width: 50%;
-    height: 85%;
+    height: 83%;
     background-color:rgb(12, 11, 11);
     border-radius: 20px;
     padding-inline: 2%;
@@ -140,7 +140,6 @@
     align-items:center;
     border-top: 40px solid rgb(12, 11, 11);
     border-bottom: 40px solid rgb(12, 11, 11);
-    z-index: 7;
   }
   
   .link {
@@ -203,11 +202,7 @@
     color: rgb(14, 14, 14);
     background-color: white !important;
   }
-
-  /* .github-button:hover {
-    background-color:rgb(0, 98, 255) !important;
-  } */
-
+  
 
 
   @media screen and (max-width: 1245px) {
@@ -235,7 +230,8 @@
 
     .proj-close-icon {
       right: 5%;
-      top: 8%;
+      top: 9%;
+      z-index: 7;
     }
   }
 
@@ -268,5 +264,14 @@
     @media screen and (max-width: 450px) {
     .details-img-container {
       min-height: 43% ;
+    }
+
+    .project-details {
+      width: 100%;
+      left: 0;
+    } 
+
+    .proj-close-icon {
+      top: 10%;
     }
   }

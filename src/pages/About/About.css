@@ -334,14 +334,8 @@
     @media screen and (max-width: 825px) {
       .personal-info-container {
         width: 100%;
-        height: 90%;
+        height: 95%;
       }
-
-      /* .about-paragraph {
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-      } */
     }
 
     @media screen and (max-width: 734px) {
@@ -350,9 +344,15 @@
         justify-content: center;
       }
 
+      .personal-info-container {
+        padding-inline: 5px;
+      }
+
       .contact-details {
         border-right: none;
-        margin-right: none;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        min-width: 100%;
       }
 
       .about {
@@ -382,6 +382,16 @@
       .button-container {
         margin-left: calc(50% - 4rem);
       }
+
+      .english, .russian, .romanian {
+        width: 100px;
+        height: 100px;
+      }
+
+      .english::before, .russian::before, .romanian::before {
+        width: 90px;
+        height: 90px;
+      }
     }
 
     @media screen and (max-width: 425px) {
@@ -391,5 +401,25 @@
         max-width: 95%;
         margin-left: 2.5%;
       }
+
+      .personal-info-container {
+        min-width: 100%;
+      }
+
+      .exp-circle-checkmark-before {
+        left: -20%;
+      }
+
+      .ed-circle-checkmark-before {
+        left: -21%;
+      }
+      .circle-checkmark-before {
+        left: -8%;
+      }
+
+      .circle-checkmark::after {
+        left: -6%;
+      }
+
     }
   }

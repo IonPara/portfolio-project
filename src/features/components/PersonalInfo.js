@@ -126,7 +126,7 @@ const PersonalInfo = ({ showInfo, setShowInfo, hide, setHide }) => {
                   width="40"
                   height="40"
                   viewBox="0 0 133 138"
-                  enable-background="new 0 0 133 138"
+                  // enable-background="new 0 0 133 138"
                 >
                   <path
                     fill="#000000"
@@ -272,7 +272,7 @@ z"
           <section>
             {/* About section */}
             <h3>
-              About <span className={`text-${theme}`}>Me</span>
+              About <span className={`text-${theme} about-me-h3`}>Me</span>
             </h3>
             <p className="paragraph ml-2 mt-3">
               A full stack web developer currently seeking junior or graduate
