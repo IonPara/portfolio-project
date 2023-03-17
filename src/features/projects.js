@@ -1,9 +1,9 @@
 import hangmanImg from "../assets/images/hangman3.png";
-import justReadImg from "../assets/images/just-read.png";
+import justReadImg from "../assets/images/just-read-small.png";
 import todoImg from "../assets/images/todo.png";
 import justFightImg from "../assets/images/just-fight.png";
 import hangmanBig from "../assets/images/hangman-big.png";
-import justReadBig from "../assets/images/just-read-big.png";
+import justReadBig from "../assets/images/just-read-big2.png";
 import todoBig from "../assets/images/todo-big.png";
 import justFightBig from "../assets/images/just-fight-big.png";
 
@@ -76,7 +76,7 @@ projects.push(hangman);
 
 const justRead = new Project(
   "Just Read",
-  "https://just-read.onrender.com/",
+  "https://just-read.netlify.app/",
   "https://github.com/IonPara/just-read-app-server",
   " Just Read is a book store app where the user can create an account, search for his/her favorite books, purchase a book and leave a review. The application allows for normal end-user access and admin access. An administrator can monitor and make changes to user's behavior.",
   [
@@ -167,7 +167,7 @@ projects.push(justFight);
 
 const todo = new Project(
   "To Do",
-  "https://todo-app-g1mr.onrender.com/",
+  "https://todo-app-g1mr.netlify.app/",
   "https://github.com/IonPara/Todo-app-client",
   "This project is a web application. The app is interactive and it lets the user to sign up and save his/her to do list.",
   [
