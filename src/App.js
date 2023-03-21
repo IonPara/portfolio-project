@@ -13,6 +13,7 @@ import { useState, useEffect } from "react";
 
 function App() {
   const [news, setNews] = useState([]);
+
   useEffect(() => {
     const getNews = async () => {
       const API_KEY = process.env.REACT_APP_API_KEY;

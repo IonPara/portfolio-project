@@ -78,7 +78,7 @@ const justRead = new Project(
   "Just Read",
   "https://just-read.netlify.app/",
   "https://github.com/IonPara/just-read-app-server",
-  " Just Read is a book store app where the user can create an account, search for his/her favorite books, purchase a book and leave a review. The application allows for normal end-user access and admin access. An administrator can monitor and make changes to user's behavior.",
+  "Just Read is a book store application that provides users with the ability to create an account, search for their favorite books, and leave reviews. The app supports both standard end-user access and admin access. Administrators have the ability to monitor user behavior and make any necessary changes.",
   [
     <p
       className="d-flex justify-evenly flex-wrap tech-icons-container"
@@ -142,7 +142,7 @@ const justFight = new Project(
   "Just Fight",
   "https://ionpara.github.io/Just-Fight/",
   "https://github.com/IonPara/Just-Fight",
-  "The project contains a website built to showcase a hobby and has a goal to provide information about the experience working on the frontend side using object-oriented design. In this project, I've used flexbox to design and build the layout and media queries to make it responsive. The project is updated regularly .",
+  "This project features a website designed to showcase a hobby and provide information about the experience working with object-oriented design in frontend development. The layout was built using flexbox and grid, and made responsive with media queries. Regular updates are made to the project.",
   [
     <p className="d-flex justify-evenly mt-4" key={101}>
       <img
@@ -169,7 +169,7 @@ const todo = new Project(
   "To Do",
   "https://todo-app-g1mr.netlify.app/",
   "https://github.com/IonPara/Todo-app-client",
-  "This project is a web application. The app is interactive and it lets the user to sign up and save his/her to do list.",
+  "This project is a web application that allows users to create an interactive to-do list. Users can sign up and save their to-do lists.",
   [
     <p className="d-flex justify-evenly flex-wrap " key={140}>
       <span className="icons-span d-flex justify-evenly tech-icons-span">
