@@ -459,9 +459,9 @@ z"
             </h3>
             <div className="education">
               <div className="d-flex justify-between mb-3">
-                <div className="ed-circle-checkmark">
+                <div className="ed-circle-checkmark ">
                   <span
-                    className="ed-circle-checkmark-before"
+                    className="ed-circle-checkmark-before hyperion-dot"
                     style={{ border: `8px solid ${color}` }}
                   />
                   Dec 2022 - Mar 2023

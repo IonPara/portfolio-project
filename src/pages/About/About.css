@@ -331,95 +331,110 @@
       min-width: 100%
     }
 
-    @media screen and (max-width: 825px) {
-      .personal-info-container {
-        width: 100%;
-        height: 95%;
-      }
+  }
+  
+  @media screen and (max-width: 825px) {
+    .personal-info-container {
+      width: 100%;
+      height: 95%;
+    }
+  }
+
+  @media screen and (max-width: 734px) {
+    .personal-info {
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
-    @media screen and (max-width: 734px) {
-      .personal-info {
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      .personal-info-container {
-        padding-inline: 5px;
-      }
-
-      .contact-details {
-        border-right: none;
-        margin-left: 30px;
-        margin-bottom: 30px;
-        min-width: 100%;
-      }
-
-      .about {
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-      .about-heading, .h4-about-heading  {
-        text-align:center;
-      }
-
-      .about-container {
-        max-width: 80%;
-        height: calc(100svh - 70px);
-        overflow-y: scroll;
-        margin-left: 10%;
-      }
-
-      .h4-about-heading {
-        min-width: 100%;
-      } 
-
-      .details-container {
-        max-width: 100%;
-        padding: 10px;
-      }
-
-      .button-container {
-        margin-left: calc(50% - 4rem);
-      }
-
-      .english, .russian, .romanian {
-        width: 100px;
-        height: 100px;
-      }
-
-      .english::before, .russian::before, .romanian::before {
-        width: 90px;
-        height: 90px;
-      }
+    .personal-info-container {
+      padding-inline: 5px;
     }
 
-    @media screen and (max-width: 425px) {
-      .about-container {
-        height: calc(100svh - 70px);
-        padding-top: 70px;
-        max-width: 95%;
-        margin-left: 2.5%;
-      }
+    .contact-details {
+      border-right: none;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      min-width: 100%;
+    }
 
-      .personal-info-container {
-        min-width: 100%;
-      }
+    .about {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .about-heading, .h4-about-heading  {
+      text-align:center;
+    }
 
-      .exp-circle-checkmark-before {
-        left: -20%;
-      }
+    .about-container {
+      max-width: 80%;
+      height: calc(100svh - 70px);
+      overflow-y: scroll;
+      margin-left: 10%;
+    }
 
-      .ed-circle-checkmark-before {
-        left: -21%;
-      }
-      .circle-checkmark-before {
-        left: -8%;
-      }
+    .h4-about-heading {
+      min-width: 100%;
+    } 
 
-      .circle-checkmark::after {
-        left: -6%;
-      }
+    .details-container {
+      max-width: 100%;
+      padding: 10px;
+    }
 
+    .button-container {
+      margin-left: calc(50% - 4rem);
+    }
+
+    .english, .russian, .romanian {
+      width: 100px;
+      height: 100px;
+    }
+
+    .english::before, .russian::before, .romanian::before {
+      width: 90px;
+      height: 90px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 485px) {
+    .about-container {
+      height: calc(100svh - 70px);
+      padding-top: 70px;
+      max-width: 95%;
+      margin-left: 2.5%;
+    }
+
+    .personal-info-container {
+      min-width: 100%;
+    }
+
+    .exp-circle-checkmark-before {
+      left: -20%;
+    }
+
+    .ed-circle-checkmark-before {
+      left: -20%;
+    }
+    .circle-checkmark-before {
+      left: -8%;
+    }
+
+    .circle-checkmark::after {
+      left: -6%;
+    }
+    .education-container  {
+      margin-left: 3px;
+    }
+
+  }
+
+  @media screen and (max-width: 406px) {
+    .ed-circle-checkmark-before {
+      left: -21%;
+    }
+    .hyperion-dot {
+      left: -21.5% !important;
     }
   }
