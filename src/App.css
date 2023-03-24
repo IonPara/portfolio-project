@@ -35,7 +35,7 @@ video {
   display: flex;
   justify-content: center;
   position: fixed;
-  height: 70px;
+  height: 60px;
   width: 100%;
   z-index: 10;
 }
@@ -47,6 +47,8 @@ video {
   justify-content: space-around;
   align-items: center;
   font-family: 'Tilt Neon', cursive;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-inline: 10px;
 }
 
@@ -210,6 +212,7 @@ video {
   .header {
     justify-content: flex-end;
     align-items: center;
+    height: 60px;
   }
 
   .nav-container {

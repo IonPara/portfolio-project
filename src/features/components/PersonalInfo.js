@@ -431,7 +431,7 @@ z"
               <div className="d-flex justify-between">
                 <div className="exp-circle-checkmark">
                   <span
-                    className="exp-circle-checkmark-before"
+                    className="exp-circle-checkmark-before hyperion-dot-tech"
                     style={{ border: `8px solid ${color}` }}
                   />
                   Dec 2022 - Mar 2023
