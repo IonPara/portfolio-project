@@ -5,7 +5,14 @@ const Main = () => {
   return (
     <main className="main">
       <div className="background-cover"></div>
-      <video src={bgVid} autoPlay muted loop />
+      <video
+        src={bgVid}
+        autoPlay
+        muted
+        loop
+        playsInline
+        id="video-background"
+      />
     </main>
   );
 };

@@ -28,6 +28,8 @@
 .image-container {
   width: 250px;
   height: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image-container img {
@@ -330,6 +332,11 @@ figcaption {
   width: 200px;
 }
 
+.hyperion-dot-tech,
+.hyperion-dot {
+  left: -20%;
+}
+
 
 @media screen and (max-width: 1250px) {
   .personal-info-container {
@@ -478,8 +485,13 @@ figcaption {
 
 }
 
-@media screen and (max-width: 406px) {
+@media screen and (max-height: 600px) {
+  .image-container {
+    margin-top: 100px;
+  }
+}
 
+@media screen and (max-height: 485px) {
   .ed-circle-checkmark-before {
     left: -21%;
   }
