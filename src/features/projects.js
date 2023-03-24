@@ -6,6 +6,8 @@ import hangmanBig from "../assets/images/hangman-big.png";
 import justReadBig from "../assets/images/just-read-big2.png";
 import todoBig from "../assets/images/todo-big.png";
 import justFightBig from "../assets/images/just-fight-big.png";
+import ticTacToeBig from "../assets/images/tic-tac-big2.png";
+import ticTacToeSm from "../assets/images/tic-tac-sm.png";
 
 class Project {
   constructor(
@@ -224,5 +226,49 @@ const todo = new Project(
   "todo"
 );
 projects.push(todo);
+
+const ticTacToe = new Project(
+  "Tic Tac Toe",
+  "https://tic-tac-toe-13.netlify.app/",
+  "https://github.com/IonPara/tic-tac-toe-app",
+  `This is a simple implementation of the classic game Tic Tac Toe using React and CSS. 
+  To start playing, simply click on any empty square on the game board to place your X or O. Players take turns placing their symbol until one player gets three in a row horizontally, vertically, or diagonally, or all squares on the board are filled.`,
+  [
+    <p className="d-flex justify-evenly mt-4 " key={130}>
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+        alt="react"
+        width="50"
+        height="50"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+        alt="nodejs"
+        width="50"
+        height="50"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+        alt="javascript"
+        width="50"
+        height="50"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+        alt="bootstrap"
+        width="50"
+        height="50"
+      />
+      <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
+      <img src="https://skillicons.dev/icons?i=html&theme=light" alt="html" />
+      <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="vs" />
+    </p>,
+  ],
+
+  ticTacToeSm,
+  ticTacToeBig,
+  "tic-tac-toe"
+);
+projects.push(ticTacToe);
 
 export { projects };
