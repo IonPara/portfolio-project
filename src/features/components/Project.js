@@ -29,15 +29,19 @@ const Project = ({ project, showInfo, setShowInfo, hide, setHide }) => {
             : "hide"
         }
       >
-        <Link className="link" to={url} target="_blank">
-          <button
-            className={`go-button button text-2xl download-btn bg-${theme}`}
-          >
-            Live
-          </button>
-        </Link>
+        {url && (
+          <Link className="link" to={url} target="_blank">
+            <button
+              className={`go-button button text-2xl download-btn bg-${theme}`}
+            >
+              Live
+            </button>
+          </Link>
+        )}
         <Link
-          className={`d-flex justify-center github-button button download-btn hover-bg-${theme}`}
+          className={`${
+            !url && "no-live-url"
+          } d-flex justify-center github-button button download-btn hover-bg-${theme}`}
           to={repository}
           target={"_blank"}
         >

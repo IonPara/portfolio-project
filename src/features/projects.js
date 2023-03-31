@@ -8,6 +8,8 @@ import todoBig from "../assets/images/todo-big.png";
 import justFightBig from "../assets/images/just-fight-big.png";
 import ticTacToeBig from "../assets/images/tic-tac-big2.png";
 import ticTacToeSm from "../assets/images/tic-tac-sm.png";
+import carApiSm from "../assets/images/cars-api-sm.png";
+import carApiBig from "../assets/images/cars-api-big.png";
 
 class Project {
   constructor(
@@ -270,5 +272,60 @@ const ticTacToe = new Project(
   "tic-tac-toe"
 );
 projects.push(ticTacToe);
+
+const carsApi = new Project(
+  "Cars Store",
+  "",
+  "https://github.com/IonPara/cars-api",
+  "This project contains a full stack web application, it was built using MERN (MongoDB, Express, React, Node.js) stack. The app pulls the data from the database and displays it in the form of a table, the app is interactive and it lets the user add a new car, remove a car and update the information of a car in the app and in the database.",
+  [
+    <p className="d-flex justify-evenly flex-wrap " key={140}>
+      <span className="icons-span d-flex justify-evenly tech-icons-span">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+          alt="mongodb"
+          width="50"
+          height="50"
+        />
+        <img
+          src="https://skillicons.dev/icons?i=express&theme=light"
+          alt="express"
+        />
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+          alt="react"
+          width="50"
+          height="50"
+        />
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+          alt="nodejs"
+          width="50"
+          height="50"
+        />
+      </span>
+      <span className="icons-span d-flex justify-evenly tech-icons-span">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+          alt="javascript"
+          width="50"
+          height="50"
+        />
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+          alt="bootstrap"
+          width="50"
+          height="50"
+        />
+        <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
+        <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="vs" />
+      </span>
+    </p>,
+  ],
+  carApiSm,
+  carApiBig,
+  "cars-api"
+);
+projects.push(carsApi);
 
 export { projects };
