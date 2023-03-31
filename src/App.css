@@ -147,6 +147,7 @@ video {
   width: 100px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+  transition: all 400ms ease-in-out;
 }
 
 
@@ -172,7 +173,7 @@ video {
   border-radius: 50%;
 }
 
-.close-theme {
+.close-themes {
   right: -90px;
 }
 

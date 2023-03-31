@@ -8,9 +8,7 @@ const Theme = () => {
   const [state, setState] = useState(false);
 
   return (
-    <div
-      className={state ? "theme-container " : " theme-container close-theme"}
-    >
+    <div className={`theme-container ${!state && "close-themes"}`}>
       <div className="themes d-flex justify-evenly ">
         <div className="">
           <div
