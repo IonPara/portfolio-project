@@ -9,7 +9,7 @@ import {
   faAddressBook,
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
-import cv from "../../assets/CV/Ion_Para_CV.pdf";
+import cv from "../../assets/CV/Ion_Para_Resume.pdf";
 import { useSelector } from "react-redux";
 
 const PersonalInfo = ({ showInfo, setShowInfo, hide, setHide }) => {
