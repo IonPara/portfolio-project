@@ -33,7 +33,7 @@ The news data is pulled from [Newsdata.io](https://newsdata.io/search-news).
 
 ## 📘 <a id="setup">Setup</a>:
 
-### Or you can visualise it by clicking on the link [here](https://ion-para.netlify.app/)
+### You can visualise it by clicking on the link [here](https://ion-para.netlify.app/)
 
 ### Or by following these steps :point_down:
 
