@@ -40,7 +40,8 @@ The news data is pulled from [Newsdata.io](https://newsdata.io/search-news).
 1. [Download Zip file](https://github.com/IonPara/portfolio-project/archive/refs/heads/main.zip)
 2. [Download **Node.js**](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
 3. Navigate to project directory
-4. Run: **npm start**
+4. Run **npm install**
+5. Run: **npm start**
 
 
 Runs the app in the development mode.
