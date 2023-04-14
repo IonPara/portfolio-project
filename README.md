@@ -33,14 +33,15 @@ The news data is pulled from [Newsdata.io](https://newsdata.io/search-news).
 
 ## 📘 <a id="setup">Setup</a>:
 
-### Or you can visualise it by clicking on the link [here](https://ion-para.netlify.app/)
+### You can visualise it by clicking on the link [here](https://ion-para.netlify.app/)
 
 ### Or by following these steps :point_down:
 
 1. [Download Zip file](https://github.com/IonPara/portfolio-project/archive/refs/heads/main.zip)
 2. [Download **Node.js**](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
 3. Navigate to project directory
-4. Run: **npm start**
+4. Run **npm install**
+5. Run: **npm start**
 
 
 Runs the app in the development mode.
