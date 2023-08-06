@@ -10,6 +10,8 @@ import ticTacToeBig from "../assets/images/tic-tac-big2.png";
 import ticTacToeSm from "../assets/images/tic-tac-sm.png";
 import carApiSm from "../assets/images/cars-api-sm.png";
 import carApiBig from "../assets/images/cars-api-big.png";
+import mmdbLg from "../assets/images/MyMovieDatabase.png";
+import mmdbSm from "../assets/images/mmdb-Sm.png";
 
 class Project {
   constructor(
@@ -34,49 +36,6 @@ class Project {
 }
 
 const projects = [];
-
-const hangman = new Project(
-  "Hangman",
-  "https://hangman-game-101.netlify.app/",
-  "https://github.com/IonPara/hangman-game-app",
-  `This project contains the "Hangman" game. Hangman is a simple word guessing game. The player has to try to figure out the unknown word by guessing letters. If too many letters which do not appear in the word are guessed, the player is hanged (and loses).`,
-  [
-    <p className="d-flex justify-evenly mt-4 " key={130}>
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-        alt="react"
-        width="50"
-        height="50"
-      />
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-        alt="nodejs"
-        width="50"
-        height="50"
-      />
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-        alt="javascript"
-        width="50"
-        height="50"
-      />
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-        alt="bootstrap"
-        width="50"
-        height="50"
-      />
-      <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
-      <img src="https://skillicons.dev/icons?i=html&theme=light" alt="html" />
-      <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="vs" />
-    </p>,
-  ],
-
-  hangmanImg,
-  hangmanBig,
-  "hangman"
-);
-projects.push(hangman);
 
 const justRead = new Project(
   "Just Read",
@@ -141,6 +100,49 @@ const justRead = new Project(
   "just-read"
 );
 projects.push(justRead);
+
+const hangman = new Project(
+  "Hangman",
+  "https://hangman-game-101.netlify.app/",
+  "https://github.com/IonPara/hangman-game-app",
+  `This project contains the "Hangman" game. Hangman is a simple word guessing game. The player has to try to figure out the unknown word by guessing letters. If too many letters which do not appear in the word are guessed, the player is hanged (and loses).`,
+  [
+    <p className="d-flex justify-evenly mt-4 " key={130}>
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+        alt="react"
+        width="50"
+        height="50"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+        alt="nodejs"
+        width="50"
+        height="50"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+        alt="javascript"
+        width="50"
+        height="50"
+      />
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+        alt="bootstrap"
+        width="50"
+        height="50"
+      />
+      <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
+      <img src="https://skillicons.dev/icons?i=html&theme=light" alt="html" />
+      <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="vs" />
+    </p>,
+  ],
+
+  hangmanImg,
+  hangmanBig,
+  "hangman"
+);
+projects.push(hangman);
 
 const justFight = new Project(
   "Just Fight",
@@ -327,5 +329,45 @@ const carsApi = new Project(
   "cars-api"
 );
 projects.push(carsApi);
+
+const mmdb = new Project(
+  "MMDB (My Movie Database)",
+  "",
+  "https://github.com/IonPara/mmdb-front-end",
+  "MMDB (My Movie Database) MMDB is a web application built using React, Vite, TypeScript, and CSS. It allows users to browse and search for popular movies, top-rated movies, and more.",
+  [
+    <p className="d-flex justify-evenly flex-wrap " key={140}>
+      <span className="icons-span d-flex justify-evenly tech-icons-span">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+          alt="react"
+          width="50"
+          height="50"
+        />
+        <img
+          src="https://skillicons.dev/icons?i=redux&theme=light"
+          alt="redux"
+          width="50"
+          height="50"
+        />
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+          alt="typescript"
+          width="50"
+          height="50"
+        />
+      </span>
+      <span className="icons-span d-flex justify-evenly tech-icons-span">
+        <img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" />
+        <img src="https://skillicons.dev/icons?i=vite&theme=light" alt="vite" />
+        <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="vs" />
+      </span>
+    </p>,
+  ],
+  mmdbSm,
+  mmdbLg,
+  "mmdb"
+);
+projects.unshift(mmdb);
 
 export { projects };

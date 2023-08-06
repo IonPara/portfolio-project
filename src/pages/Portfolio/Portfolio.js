@@ -11,10 +11,12 @@ const Portfolio = () => {
   // const [disable, setDisable] = useState(true);
   const [showInfo, setShowInfo] = useState("");
   const [hide, setHide] = useState(true);
+  
   const ref = useRef(null);
   const scroll = (scrollOffSet) => {
     ref.current.scrollLeft += scrollOffSet;
   };
+
   const theme = useSelector((state) => state.portfolio.theme);
 
   return (
