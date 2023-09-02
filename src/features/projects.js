@@ -332,7 +332,7 @@ projects.push(carsApi);
 
 const mmdb = new Project(
   "MMDB (My Movie Database)",
-  "",
+  "mmdb1.netlify.app",
   "https://github.com/IonPara/mmdb-front-end",
   "MMDB (My Movie Database) MMDB is a web application built using React, Vite, TypeScript, and CSS. It allows users to browse and search for popular movies, top-rated movies, and more.",
   [
